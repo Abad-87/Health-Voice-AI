@@ -6,8 +6,8 @@ services:
       - "8000:8000"
     environment:
       - OPENAI_API_KEY=${OPENAI_API_KEY}
-      - REDIS_URL=redis://redis:6379/0
-      - API_KEY=secret
+      - REDIS_URL=redis://red-d5frc6be5dus73d3jttg:6379
+      - API_KEY=7d8703b8809785eaa76d3c09fdf352e3
   redis:
     image: redis
     ports:
